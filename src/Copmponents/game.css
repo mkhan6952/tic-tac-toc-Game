@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.row {
+  display: flex;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background: #eee;
+  border: 1.5px solid black;
+  text-align: center;
+  padding-top: 23px;
+  color: maroon;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
